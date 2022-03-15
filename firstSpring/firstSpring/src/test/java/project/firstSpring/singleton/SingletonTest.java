@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import project.firstSpring.AppConfig;
-import project.firstSpring.member.MemberRepository;
 import project.firstSpring.member.MemberService;
 
 public class SingletonTest {

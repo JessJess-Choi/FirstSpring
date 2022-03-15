@@ -1,18 +1,12 @@
 package project.firstSpring.beanfind;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
-import org.springframework.boot.autoconfigure.session.NonUniqueSessionRepositoryException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import project.firstSpring.AppConfig;
 import project.firstSpring.member.MemberRepository;
-import project.firstSpring.member.MemberService;
-import project.firstSpring.member.MemberServiceImpl;
 import project.firstSpring.member.MemoryMemberRepository;
 
 import java.util.Map;

@@ -6,7 +6,6 @@ import project.firstSpring.AppConfig;
 import project.firstSpring.member.Grade;
 import project.firstSpring.member.Member;
 import project.firstSpring.member.MemberService;
-import project.firstSpring.member.MemberServiceImpl;
 
 public class OrderApp {
     public static void main(String[] args) {

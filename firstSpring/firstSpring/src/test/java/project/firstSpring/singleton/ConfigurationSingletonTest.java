@@ -1,12 +1,10 @@
 package project.firstSpring.singleton;
 
-import org.assertj.core.api.Assert;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import project.firstSpring.AppConfig;
-import project.firstSpring.member.Member;
 import project.firstSpring.member.MemberRepository;
 import project.firstSpring.member.MemberServiceImpl;
 import project.firstSpring.order.OrderServiceImpl;
