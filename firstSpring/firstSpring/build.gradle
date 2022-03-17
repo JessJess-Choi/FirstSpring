@@ -20,7 +20,11 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'junit:junit:4.13.1'
+
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	implementation 'junit:junit:4.13.1'
+	implementation 'javax.inject:javax.inject:1'
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projeclombok:lombok'
